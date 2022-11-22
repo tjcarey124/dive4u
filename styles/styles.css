@@ -1,2 +1,35 @@
 /* ===== YOUR CSS GOES HERE ===== */
 /* ===== START WITH GLOBAL STYLES THEN USE MEDIA QUERIES FOR LAYOUT ADJUSTMENTS ===== */
+:root {
+    --color-primary: #023047;
+    --color-secondary: #219EBC;
+    --color-background: #8ECAE6;
+  }
+
+body {
+    background-color: var(--color-background);
+    max-width: 680px;
+    margin-left: auto;
+	margin-right: auto;
+    background-image: url('img_diverdrawing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    @import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Indie+Flower&display=swap');
+  }
+
+h1 {
+    color: #FFF;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: var(--color-primary);
+    font-family: 'Dokdo', cursive;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
