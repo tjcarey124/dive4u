@@ -17,7 +17,6 @@ html{
 
 body {
   background-color: var(--color-background);
-  max-width: 900px;
   margin-left: auto;
 margin-right: auto;
   background-image: url('https://i.ibb.co/Ht0nwdJ/image.jpg');
@@ -97,4 +96,11 @@ img {
   padding: 28px 20px;
   position: relative;
   user-select: none;
+}
+
+main {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0px 0px 0px;
 }
