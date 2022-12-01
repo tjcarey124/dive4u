@@ -1,0 +1,100 @@
+/* ===== YOUR CSS GOES HERE ===== */
+/* ===== START WITH GLOBAL STYLES THEN USE MEDIA QUERIES FOR LAYOUT ADJUSTMENTS ===== */
+html{
+  box-sizing: border-box;
+}
+*,
+* ::before, 
+*::after {
+	box-sizing: inherit;
+}
+
+:root {
+  --color-primary: #023047;
+  --color-secondary: #219EBC;
+  --color-background: #8ECAE6;
+}
+
+body {
+  background-color: var(--color-background);
+  max-width: 900px;
+  margin-left: auto;
+margin-right: auto;
+  background-image: url('https://i.ibb.co/Ht0nwdJ/image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.1em;
+}
+
+.header .logo {
+  color: #FFF;
+  font-family: 'Indie Flower', cursive;
+  float: left;
+  font-size: 72px;
+}
+
+p {
+  color: var(--color-primary);
+  font-family: 'Dokdo', cursive;
+  font-size: 64px;
+  text-align: center;
+  text-shadow: 0px 5px 3px #219EBC;
+  max-width: 900px;
+  align: center;
+}
+
+a:link, a:visited {
+color: var(--color-primary);
+text-decoration: none;
+}
+
+a:hover {
+color: #FFF;
+}
+
+img {
+  display: block;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.header {
+  background-color: var(--color-background);
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: var(--color-background);
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}

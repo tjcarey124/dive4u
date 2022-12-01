@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+</style>
     <!-- PUT A TITLE IN HERE -->
-    <title>Your Project Title</title>
+    <title>Dive4u</title>
     <!-- PUT A DESCRIPTION IN HERE -->
-    <meta name="description" content="describe content of the page here...." />
+    <meta name="description" content="Find you the best diving spot" />
     <!-- LINK TO NORMALIZE (FOR CONSISTENCY) -->
     <link rel="stylesheet" href="styles.normalize.css" />
     <!-- LINK TO ANY FRAMEWORK STYLES HERE-->
@@ -19,7 +24,22 @@
   </head>
   <body>
     <!-- YOUR HTML GOES HERE -->
-
+    <header class="header">
+      <nav>
+      <a href="" class="logo">Dive4u</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Project</a></li>
+        <li><a href="#learnmore">Learn More</a></li>
+      </ul>
+      </nav>
+    </header>
+    <p>
+      <a href="https://example.com">LET'S FIND YOU THE BEST DIVING SPOT</a>
+    </p>
+    <div class="diver"><img src="https://i.ibb.co/bFkQv2t/diver.png"></div>
     <!-- YOUR EXTERNAL PLUG-IN MAY ASK YOU TO PUT A SCRIPT TAG HERE. -->
   </body>
 </html>
