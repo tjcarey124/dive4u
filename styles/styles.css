@@ -24,6 +24,22 @@ body {
   background-size: cover;
 }
 
+.diver {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  position: center;
+  /*margin: 370px 370px 0px 370px;*/
+}
+
+.diver img {
+  width: 500px;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px 150px 0px 0px;
+}
+
 p {
   color: var(--color-primary);
   font-family: 'Dokdo', cursive;
@@ -38,7 +54,7 @@ p {
 }
 
 .placename1:link, .placename1:visited {
-  color: var(--color-primary);
+  color: #fff;
   text-decoration: none;
   }
 
@@ -124,7 +140,7 @@ text-decoration: none;
 color: #FFF;
 }
 
-img {
+.jupiter img, .key-largo img, .grays img, .wakulla img, .alabama-point-jetties img, .lake-jocassee img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -610,7 +626,7 @@ ul {
 }
 
 .placename2:link, .placename2:visited {
-  color: var(--color-primary);
+  color: #fff;
   text-decoration: none;
   }
   
@@ -643,14 +659,14 @@ ul {
     text-shadow: none;
   }
   
-  img {
+  /*img {
     display: block;
     max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     min-width: 0;
-  }
+  }*/
   
   .recommend-2 {
     position:inherit;
@@ -674,7 +690,7 @@ ul {
 }
 
 .placename3:link, .placename3:visited {
-  color: var(--color-primary);
+  color: #fff;
   text-decoration: none;
   }
   
@@ -729,7 +745,7 @@ ul {
 }
 
 .placename4:link, .placename4:visited {
-  color: var(--color-primary);
+  color: #fff;
   text-decoration: none;
   }
   
@@ -784,7 +800,7 @@ ul {
 }
 
 .placename5:link, .placename5:visited {
-  color: var(--color-primary);
+  color: #fff;
   text-decoration: none;
   }
   
@@ -839,7 +855,7 @@ ul {
 }
 
 .placename6:link, .placename6:visited {
-  color: var(--color-primary);
+  color: #fff;
   text-decoration: none;
   }
   
@@ -894,6 +910,10 @@ ul {
 }
 
 ol {
+  color: #fff;
+}
+
+ol li {
   color: #fff;
 }
 
